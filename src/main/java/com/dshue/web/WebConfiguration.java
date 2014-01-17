@@ -34,7 +34,7 @@ import com.dshue.jsonviewoutput.ViewAwareMappingJackson2HttpMessageConverter;
 import com.dshue.jsonviewoutput.ViewInjectingReturnValueHandler;
 
 @Configuration
-@ComponentScan(basePackages = "com.nebhale.springone2013")
+@ComponentScan(basePackages = "com.dshue")
 @EnableWebMvc
 public class WebConfiguration extends WebMvcConfigurerAdapter {
 

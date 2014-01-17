@@ -13,7 +13,7 @@
 1.  Ask again: what if the payload needed to differ?  Explain shortly
 
 # Naive Output Changes
-1.  Add `produces = "application/vnd.nebhale.cat.v1+json"` to `CatController.readV1()` `@RequestMapping`
+1.  Add `produces = "application/vnd.dshue.cat.v1+json"` to `CatController.readV1()` `@RequestMapping`
 1.  Demonstrate the payload headers of `Cat` with `Accept` header
 1.  Add a `readV2()` method to `CatController`
 1.  Demonstrate the ability to get two different payloads depending on header
