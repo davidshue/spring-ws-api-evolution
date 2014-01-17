@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.hateoas;
+package com.dshue.hateoas;
 
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.ResourceAssembler;

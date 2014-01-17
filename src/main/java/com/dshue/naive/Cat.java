@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.naive;
+package com.dshue.naive;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

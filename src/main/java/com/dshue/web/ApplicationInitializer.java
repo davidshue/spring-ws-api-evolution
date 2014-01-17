@@ -15,7 +15,7 @@
  */
 
 
-package com.nebhale.springone2013.web;
+package com.dshue.web;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 

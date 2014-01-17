@@ -1,13 +1,13 @@
 
-package com.nebhale.springone2013.jsonviewoutput;
+package com.dshue.naiveoutput;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-public final class Owner {
+public final class CatV1 {
 
-    private final Integer id = 0;
+    private final Integer id = 1;
 
-    private final String name = "Ben Hale";
+    private final String name = "Loki";
 
     @JsonIgnore
     public Integer getId() {

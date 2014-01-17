@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.naive;
+package com.dshue.naive;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -9,12 +9,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping(value = "/naive/v1/owners", produces = MediaType.APPLICATION_JSON_VALUE)
-class NaiveOwnerController {
+@RequestMapping(value = "/naive/v1/cats", produces = MediaType.APPLICATION_JSON_VALUE)
+class NaiveCatController {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/{ownerId}")
+    @RequestMapping(method = RequestMethod.GET, value = "/{catId}")
     @ResponseBody
-    Owner read(@PathVariable Integer ownerId) {
-        return new Owner();
+    Cat read(@PathVariable Integer catId) {
+        return new Cat();
     }
+
 }

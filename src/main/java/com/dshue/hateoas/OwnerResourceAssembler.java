@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.hateoas;
+package com.dshue.hateoas;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;

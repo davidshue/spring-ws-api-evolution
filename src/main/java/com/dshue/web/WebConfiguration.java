@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nebhale.springone2013.web;
+package com.dshue.web;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,8 +30,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
 import org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor;
 
-import com.nebhale.springone2013.jsonviewoutput.ViewAwareMappingJackson2HttpMessageConverter;
-import com.nebhale.springone2013.jsonviewoutput.ViewInjectingReturnValueHandler;
+import com.dshue.jsonviewoutput.ViewAwareMappingJackson2HttpMessageConverter;
+import com.dshue.jsonviewoutput.ViewInjectingReturnValueHandler;
 
 @Configuration
 @ComponentScan(basePackages = "com.nebhale.springone2013")

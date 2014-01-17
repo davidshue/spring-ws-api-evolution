@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.jsonviewoutput;
+package com.dshue.jsonviewoutput;
 
 public class InstanceAndView {
 

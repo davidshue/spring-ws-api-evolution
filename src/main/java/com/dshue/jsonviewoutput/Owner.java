@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.hateoas;
+package com.dshue.jsonviewoutput;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

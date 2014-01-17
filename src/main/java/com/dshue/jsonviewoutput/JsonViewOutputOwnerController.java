@@ -1,5 +1,5 @@
 
-package com.nebhale.springone2013.naiveoutput;
+package com.dshue.jsonviewoutput;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping(value = "/naiveoutput/cats", produces = MediaType.APPLICATION_JSON_VALUE)
-class NaiveOutputCatController {
+@RequestMapping(value = "/jsonviewoutput/owners", produces = MediaType.APPLICATION_JSON_VALUE)
+class JsonViewOutputOwnerController {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/{catId}")
+    @RequestMapping(method = RequestMethod.GET, value = "/{ownerId}")
     @ResponseBody
-    CatV1 readV1(@PathVariable Integer catId) {
-        return new CatV1();
+    Owner read(@PathVariable Integer ownerId) {
+        return new Owner();
     }
 }
